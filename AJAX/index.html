@@ -1,0 +1,17 @@
+<html>
+ <head>
+    <script type="text/javascript" src="AJAX API.js"></script>
+ </head>
+  <body>
+    <button style="height:40px;width:40px;" onclick="check()"></button>
+  </body>
+</html>
+<script>
+   
+   function check(){
+     var con = new ajaxREQ;
+	 document.write(con.send("GET", "text.php"));
+   }
+   
+</script>
+
